@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addToCart } from "../redux/cartActions";
 
-import BooksList from "./BooksList";
-
 class Home extends Component {
   handleClick = id => {
     this.props.addToCart(id);

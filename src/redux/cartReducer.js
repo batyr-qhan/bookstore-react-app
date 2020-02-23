@@ -6,7 +6,6 @@ import Item5 from "../images/book5.jpeg";
 import Item6 from "../images/book6.jpeg";
 
 import { ADD_TO_CART } from "./action-types";
-import { act } from "react-dom/test-utils";
 
 const initState = {
   items: [
